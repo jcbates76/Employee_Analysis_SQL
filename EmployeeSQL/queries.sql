@@ -81,7 +81,6 @@ SELECT * FROM sales_development_emp;
 
 -- 8) In descending order, list the frequency count of employee last names, 
 -- i.e., how many employees share each last name.
-
 CREATE VIEW last_name_count AS
 SELECT last_name, count(emp_no) AS "count_last_name"
 FROM employees
@@ -89,3 +88,5 @@ GROUP BY last_name
 ORDER BY "count_last_name" DESC;
 
 select * from last_name_count;
+
+
