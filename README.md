@@ -1,4 +1,4 @@
-# sql-challenge
+# Employee_Analysis_SQL
 
 A research project on employees of the corporation from the 1980's and 1990's.  
 Design tables to hold the CSV's, import the CSV's into the SQL database, and answer the following questions about the data.
@@ -19,8 +19,3 @@ Inspect the CSV's and sketch out an ERD of the tables.
 6) List all employees in the Sales department, including their employee number, last name, first name and department name.
 7) List all employees in the Sales and Development departments, including thier employee number, last name, first name, and department name.
 8) In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
-
-## Bonus:
-Using Pandas:
-1) Create a histogram to visualize the most common salary ranges for employees.
-2) Create a bar chart of average salary by title.
